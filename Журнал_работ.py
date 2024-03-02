@@ -8,7 +8,7 @@ app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
 def main():
     db_session.global_init("db/mars_explorer.db")
-    app.run(port=8000, host='127.0.0.1')
+    app.run(port=8080, host='127.0.0.1')
 
 
 @app.route("/")
